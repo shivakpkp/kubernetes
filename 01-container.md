@@ -16,7 +16,7 @@ You can create a Pod using the following command:
 
 ```bash
 kubectl run <Container-Name> --image=<Container Image>
-
+```
 # Manifest for creating Pod:
 
 ```bash
@@ -33,3 +33,4 @@ spec:
       image: <Image-Name>
       ports:
         - containerPort: <Port>
+```
