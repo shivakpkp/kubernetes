@@ -38,3 +38,19 @@ spec:
     type:
       container
 ```
+
+# Hard Limit for CPU and Memory Limit in specific Namespace 
+
+```bash
+apiVersion: v1
+kind: ResourceQuota
+metadata: 
+  name: my-Resource-quota
+
+spec:
+  hard:
+    resquests.cpu: 4
+    requests.memory: 4Gi
+    limits.cpu: 10
+    limits.memory: 10Gi
+```

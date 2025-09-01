@@ -23,6 +23,7 @@ kubectl run <Container-Name> --image=<Container Image>
 apiVersion: v1
 kind: Pod
 metadata:
+  namespace: <NS-Name> #Optional
   name: <Pod-Name>
   labels:
     <Key>: <Value>
