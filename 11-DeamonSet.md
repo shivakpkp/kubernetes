@@ -13,7 +13,7 @@ kubectl describe deamonset <DeamonSet name>
 # DeamonSet Manifest
 ```bash
 apiVersion: app/v1
-kind: deamonSet
+kind: DaemonSet
 metadata:
   name: <Name of deamon>
   labels:
