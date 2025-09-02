@@ -40,7 +40,7 @@ spec:
 
 
 ***Planned***
-                                                | DuringScheduling  | DuringExecution
-------------------------------------------------|-------------------|-----------------
-requiredDuringSchedulingRequiredDuringExecution | Reuired           | Reuired
-preferredDuringSchedulingRequiredDuringExecution| Preffered         | Reuired
+|             Type                                |  DuringScheduling   | DuringExecution   |
+| ----------------------------------------------- | ------------------- | ----------------- |
+| requiredDuringSchedulingRequiredDuringExecution | Reuired             | Reuired           |
+| preferredDuringSchedulingRequiredDuringExecution| Preffered           | Reuired           |
