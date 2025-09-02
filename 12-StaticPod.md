@@ -3,6 +3,10 @@ When you don't have kubernetes cluster and Management services. Pods can be run 
 the pod definitions should copy to the directory ***/etc/kubernetes/manifests***
 Kubelete, will create the pod according to definition and monitor them to be up and running.
 
+# UseCases
+the controlplan pod can be ceate in this case. So you do not need to download the binary and install it.
+the kubelet takes care of the Pods
+
 # Kubelet Service
 
 It can be refer to the pass
