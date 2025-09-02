@@ -35,7 +35,6 @@ spec:
                                                 | DuringScheduling  | DuringExecution
 ------------------------------------------------|-------------------|-----------------
 requiredDuringSchedulingIgnoreDuringExecution   | Reuired           | Ignored
-------------------------------------------------|-------------------|-----------------
 preferredDuringSchedulingIgnoreDuringExecution  | Preferred         | Ignored
 
 
@@ -44,5 +43,4 @@ preferredDuringSchedulingIgnoreDuringExecution  | Preferred         | Ignored
                                                 | DuringScheduling  | DuringExecution
 ------------------------------------------------|-------------------|-----------------
 requiredDuringSchedulingRequiredDuringExecution | Reuired           | Reuired
-------------------------------------------------|-------------------|-----------------
 preferredDuringSchedulingRequiredDuringExecution| Preffered         | Reuired
