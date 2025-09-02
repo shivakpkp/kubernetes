@@ -32,10 +32,10 @@ spec:
 # Node Affinity Type:
 
 ***Availabe***
-                                                | DuringScheduling  | DuringExecution
-------------------------------------------------|-------------------|-----------------
-requiredDuringSchedulingIgnoreDuringExecution   | Reuired           | Ignored
-preferredDuringSchedulingIgnoreDuringExecution  | Preferred         | Ignored
+|             Type                                |  DuringScheduling   | DuringExecution |
+| ----------------------------------------------- | ------------------- |-----------------|
+| requiredDuringSchedulingIgnoreDuringExecution   |  Reuired            | Ignored         |
+| preferredDuringSchedulingIgnoreDuringExecution  |  Preferred          | Ignored         |
 
 
 
