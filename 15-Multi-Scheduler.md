@@ -19,6 +19,9 @@ ExecuteStart=/usr/local/bin/kube-scheduler \\
   --config=/etc/kubernetes/config/myScheduler.yml
 ```
 **Note:** If you have different masters and you have different scheduling running on each of them you have to specify the LeaderElection as only one scheduler can be active at the same time.
+You can run multiple schedulers in Kubernetes.
+If they share the same schedulerName, leader election ensures only one is active (HA).
+If they have different names, multiple schedulers can actively schedule pods at the same time.
 ![alt text](image.png)
 
 # Get The Logs 
